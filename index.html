@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Anjali Mayur Patil</h1>
+        <p class="title">Assistant Professor</p>
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab(event, 'about')">About</button>
+            <button class="tab-button" onclick="openTab(event, 'experience')">Experience</button>
+            <button class="tab-button" onclick="openTab(event, 'education')">Education</button>
+            <button class="tab-button" onclick="openTab(event, 'skills')">Skills</button>
+            <button class="tab-button" onclick="openTab(event, 'projects')">Projects</button>
+            <button class="tab-button" onclick="openTab(event, 'publications')">Publications</button>
+        </div>
+        <div class="tab-content active" id="about">
+            <h2>About Me</h2>
+            <p>To work as an Assistant Professor to utilize my teaching, administration skills & abilities towards the development and implementation of new ideas contributing to the growth of a reputed institution.</p>
+        </div>
+        <div class="tab-content" id="experience">
+            <h2>Experience</h2>
+            <p>Assistant Professor at MIT Academy of Engineering, Pune</p>
+            <p>Assistant Professor at IICMR, Pune (Dec 2024 - Present)</p>
+            <p>Lecturer at Pratibha Institute of Business Management, Pune (May 2022 - Aug 2023)</p>
+            <p>Lecturer at Vidya Valley North Point College, Pune (June 2018 - April 2022)</p>
+            <p>Software Engineer at H.Fillunger & Co. Pvt. Ltd. Pune (Oct 2016 - May 2018)</p>
+            <p>Software Engineer at Gemini Graphics Pvt. Ltd., Karnataka (July 2015 - Aug 2016)</p>
+        </div>
+        <div class="tab-content" id="education">
+            <h2>Education</h2>
+            <p>M.E. from SPPU with 7.66 CGPA</p>
+            <p>Bachelor's from Institution of Engineers with 64.3%</p>
+            <p>Diploma from MSBTE, with 76.75%</p>
+            <p>SSC from State Board with 83%</p>
+        </div>
+        <div class="tab-content" id="skills">
+            <h2>Skills</h2>
+            <p>Programming Languages: Python, C++, SQL, C#.Net, ASP.Net</p>
+            <p>Cloud Platforms: Google Cloud Platform (GCP), AWS</p>
+            <p>Operating Systems: Linux, Windows</p>
+            <p>Databases: Oracle, SQL Server, MySQL, SQLite</p>
+        </div>
+        <div class="tab-content" id="projects">
+            <h2>Projects</h2>
+            <p>Customer Relationship Management - H. Fillunger & Co. Pvt. Ltd.</p>
+            <p>Customer Segmentation - H. Fillunger & Co. Pvt. Ltd.</p>
+            <p>Sales Prediction - H. Fillunger & Co. Pvt. Ltd.</p>
+        </div>
+        <div class="tab-content" id="publications">
+            <h2>Publications</h2>
+            <p>Published paper on “Mining high on-shelf utility itemsets with negative values” in IJASCSE.</p>
+            <p>Presented paper on “High Utility Itemset Mining with Negative Items” in cPGCON 2015.</p>
+            <p>Published paper on “Survey on Itemset Mining from Transactional Database” in IJSR.</p>
+            <p>Presented paper on “Survey on Information Extraction System Approaches” in RACE-2014.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
